@@ -1,7 +1,7 @@
 package helloWorldApplication;
 
 public class HelloWorld {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String firstName = args[0];
         String secondName = args[1];
 

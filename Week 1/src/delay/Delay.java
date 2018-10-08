@@ -1,7 +1,7 @@
 package delay;
 
 public class Delay {
-    public static void main(String args[]) throws Exception {
+    public static void main(String[] args) throws Exception {
         System.out.println("starting delay code");
 
         long start = System.currentTimeMillis();
