@@ -8,10 +8,10 @@ class MyThread_SlowRace extends Thread {
         for(int i = 0; i < 10; i++) {
             delay();
             int x = count;
-            System.out.println("Thread " + name + " read " + x);
+            System.out.println("thread " + name + " read " + x);
             delay();
             count = x + 1;
-            System.out.println("Thread " + name + " wrote " + (x + 1));
+            System.out.println("thread " + name + " wrote " + (x + 1));
         }
     }
 

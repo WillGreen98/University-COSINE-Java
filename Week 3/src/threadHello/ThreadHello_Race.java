@@ -4,11 +4,14 @@ class MyThread_Race extends Thread {
     volatile static int count;
 
     public void run() {
-        for(int i = 0; i < 1000000000; i++) {
+        for(int i = 0; i < 10000; i++) {
 
             // Experiment 4
             // int x = count;
             // count = x + 1;
+
+            // Experiment 4.1
+            // count = count + 1;
 
             // Experiment 5
             count++;

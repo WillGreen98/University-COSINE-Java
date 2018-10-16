@@ -7,7 +7,7 @@ class MyThread extends Thread {
     public void run() {
         for(int i = 0; i < 1000000; i++) {
             q.add("message " + i);
-            System.out.println("Thread " + name + " added message " + i);
+            System.out.println("thread " + name + " added message " + i);
         }
     }
 }

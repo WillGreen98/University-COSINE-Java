@@ -3,18 +3,18 @@ package threadHello;
 class MyThread_Delay extends Thread {
     String name;
 
-    public void run() {
-        for(int i = 0; i < 10; i++) {
-            delay();
-            System.out.println("Hello from thread " + name);
-        }
-    }
-
     void delay() {
         int delay = (int) (1000 * Math.random());
         try {
             Thread.sleep(delay);
         } catch(Exception e) {
+        }
+    }
+
+    public void run() {
+        for(int i = 0; i < 10; i++) {
+            delay();
+            System.out.println("Hello from thread " + name);
         }
     }
 }
