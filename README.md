@@ -31,3 +31,8 @@ We may cover programming concepts that can be added to previous projects or that
 * Mutual Exclusion
 * Synchronization
 * Deadlock
+
+## Week 5
+* Synchronization
+* Deadlock with two resources
+* Notification
