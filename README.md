@@ -35,4 +35,4 @@ We may cover programming concepts that can be added to previous projects or that
 ## Week 5
 * Synchronization
 * Deadlock with two resources
-* Notification
+* notification.Notification

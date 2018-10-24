@@ -1,3 +1,5 @@
+package notification;
+
 class Node {
     Node(String data) {
         this.data = data;
@@ -29,7 +31,7 @@ class Reader extends Writer {
         for(int i = 0; i < 10; i++) {
             longDelay();
             String m = q.rem();
-            System.out.println("Reader " + name + " read " + m);
+            System.out.println("notification.Reader " + name + " read " + m);
         }
     }
 }

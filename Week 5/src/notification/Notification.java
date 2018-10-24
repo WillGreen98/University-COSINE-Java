@@ -1,3 +1,5 @@
+package notification;
+
 import java.util.concurrent.*;
 
 class MyThreadI extends Thread {
