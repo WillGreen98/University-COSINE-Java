@@ -36,3 +36,11 @@ We may cover programming concepts that can be added to previous projects or that
 * Synchronization
 * Deadlock with two resources
 * notification.Notification
+
+## Week 6
+* In-Class Test
+
+## Week 7
+* File Systems
+* Java RMI ```Remote Method Invocation```
+    
