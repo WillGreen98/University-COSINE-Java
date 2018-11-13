@@ -36,7 +36,6 @@ class Reader extends Writer {
     }
 }
 
-
 class Queue {
     private volatile Node front, back;
 
@@ -64,9 +63,6 @@ class Queue {
         }
     }
 }
-
-
-
 
 public class Notification_Message {
     public static void main(String[] args) throws Exception {

@@ -7,11 +7,11 @@ class MyThread_Race extends Thread {
         for(int i = 0; i < 10000; i++) {
 
             // Experiment 4
-            // int x = count;
-            // count = x + 1;
+             int x = count;
+             count = x + 1;
 
             // Experiment 4.1
-            // count = count + 1;
+             count = count + 1;
 
             // Experiment 5
             count++;
