@@ -15,6 +15,6 @@ public class Server extends UnicastRemoteObject implements rmi.RemoteInterface {
         Server server = new Server();
 
         Registry reg = LocateRegistry.createRegistry(1234);
-        reg.bind("myrmiserver", server);
+        reg.bind("Server", server);
     }
 }
