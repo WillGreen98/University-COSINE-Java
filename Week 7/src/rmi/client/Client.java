@@ -10,7 +10,12 @@ public class Client {
         Registry reg = LocateRegistry.getRegistry("127.0.0.1", 1234);
         rmi.RemoteInterface handle = (rmi.RemoteInterface) reg.lookup("Server");
 
-        String message = in.readLine();
-        handle.printMessage(message);
+        int messageCount = 0;
+        do {
+            String message = in.readLine();
+            messageCount += 1;
+
+            handle.printMessage(message);
+        } while(messageCount <= 10);
     }
 }
