@@ -1,6 +1,6 @@
 package files;
 
-import java.io.* ;
+import java.io.*;
 
 public class File_Read {
     public static void main(String[] args) throws Exception {

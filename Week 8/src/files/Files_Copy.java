@@ -4,8 +4,8 @@ import java.io.* ;
 
 public class Files_Copy {
     public static void main(String[] args) throws Exception {
-        FileInputStream in = new FileInputStream("N:/cosine/tweedle-dum.txt");
-        FileOutputStream out = new FileOutputStream("N:/cosine/tweedle-dee.txt");
+        FileInputStream in = new FileInputStream("tweedle-dum.txt");
+        FileOutputStream out = new FileOutputStream("tweedle-dee.txt");
 
         byte buffer[] = new byte[100];
 

@@ -16,3 +16,5 @@ public class Get_Attributes {
         System.out.println("Is a hidden file?: " + dum.isHidden());
     }
 }
+
+
